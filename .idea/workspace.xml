@@ -1,343 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcc4a0d2-98f6-4b4f-9a95-8ac0628db9b0" name="Default Changelist" comment="项目首次提交">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.en.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/java/com/atguigu/RenrenApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/java/com/atguigu/config/DbConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/java/com/atguigu/controller/SysGeneratorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/java/com/atguigu/dao/GeneratorDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/java/com/atguigu/dao/MySQLGeneratorDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/java/com/atguigu/dao/OracleGeneratorDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/java/com/atguigu/dao/PostgreSQLGeneratorDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/java/com/atguigu/dao/SQLServerGeneratorDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/java/com/atguigu/entity/ColumnEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/java/com/atguigu/entity/TableEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/java/com/atguigu/service/SysGeneratorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/java/com/atguigu/utils/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/java/com/atguigu/utils/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/java/com/atguigu/utils/GenUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/java/com/atguigu/utils/PageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/java/com/atguigu/utils/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/java/com/atguigu/utils/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/java/com/atguigu/utils/RRException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/java/com/atguigu/utils/RRExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/generator.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/mapper/MySQLGeneratorDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/mapper/OracleGeneratorDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/mapper/PostgreSQLGeneratorDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/mapper/SQLServerGeneratorDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/css/AdminLTE.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/css/all-skins.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/js/generator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/libs/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/libs/app.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/libs/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/libs/fastclick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/libs/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/libs/jquery.slimscroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/libs/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/libs/vue.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/plugins/jqgrid/grid.locale-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/plugins/jqgrid/jquery.jqGrid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/plugins/jqgrid/ui.jqgrid-bootstrap-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/plugins/jqgrid/ui.jqgrid-bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/plugins/jqgrid/ui.jqgrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/plugins/layer/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/plugins/layer/mobile/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/plugins/layer/mobile/need/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/plugins/layer/skin/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/plugins/layer/skin/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/plugins/layer/skin/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/plugins/layer/skin/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/plugins/layer/skin/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/plugins/layer/skin/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/plugins/layer/skin/moon/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/static/plugins/layer/skin/moon/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/template/Controller.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/template/Dao.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/template/Dao.xml.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/template/Entity.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/template/Service.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/template/ServiceImpl.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/template/add-or-update.vue.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/template/index.vue.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/template/menu.sql.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/views/generator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/views/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/db/mysql.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/db/oracle.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/db/postgresql.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/db/sqlserver.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/GmallAdminMainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/annotation/SysLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/aspect/RedisAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/aspect/SysLogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/exception/RRException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/exception/RRExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/utils/ConfigConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/utils/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/utils/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/utils/HttpContextUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/utils/IPUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/utils/MapUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/utils/PageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/utils/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/utils/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/utils/RedisKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/utils/RedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/utils/ShiroUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/utils/SpringContextUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/validator/Assert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/validator/ValidatorUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/validator/group/AddGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/validator/group/AliyunGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/validator/group/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/validator/group/QcloudGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/validator/group/QiniuGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/validator/group/UpdateGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/xss/HTMLFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/xss/SQLFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/xss/XssFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/common/xss/XssHttpServletRequestWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/config/DemoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/config/FilterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/config/KaptchaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/config/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/config/ShiroConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/datasource/properties/DataSourceProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/datasource/properties/DynamicDataSourceProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/app/annotation/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/app/annotation/LoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/app/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/app/controller/AppLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/app/controller/AppRegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/app/controller/AppTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/app/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/app/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/app/form/LoginForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/app/form/RegisterForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/app/interceptor/AuthorizationInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/app/resolver/LoginUserHandlerMethodArgumentResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/app/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/app/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/app/utils/JwtUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/config/ScheduleConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/controller/ScheduleJobController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/controller/ScheduleJobLogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/dao/ScheduleJobDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/dao/ScheduleJobLogDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/entity/ScheduleJobEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/entity/ScheduleJobLogEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/service/ScheduleJobLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/service/ScheduleJobService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/service/impl/ScheduleJobLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/service/impl/ScheduleJobServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/task/ITask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/task/TestTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/utils/ScheduleJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/utils/ScheduleUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/oss/cloud/AliyunCloudStorageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/oss/cloud/CloudStorageConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/oss/cloud/CloudStorageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/oss/cloud/OSSFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/oss/cloud/QcloudCloudStorageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/oss/cloud/QiniuCloudStorageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/oss/controller/SysOssController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/oss/dao/SysOssDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/oss/entity/SysOssEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/oss/service/SysOssService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/oss/service/impl/SysOssServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/controller/AbstractController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/controller/SysConfigController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/controller/SysLogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/controller/SysLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/controller/SysMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/controller/SysRoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/controller/SysUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/dao/SysCaptchaDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/dao/SysConfigDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/dao/SysLogDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/dao/SysMenuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/dao/SysRoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/dao/SysRoleMenuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/dao/SysUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/dao/SysUserRoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/dao/SysUserTokenDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/entity/SysCaptchaEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/entity/SysConfigEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/entity/SysLogEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/entity/SysMenuEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/entity/SysRoleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/entity/SysRoleMenuEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/entity/SysUserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/entity/SysUserRoleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/entity/SysUserTokenEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/form/PasswordForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/form/SysLoginForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/oauth2/OAuth2Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/oauth2/OAuth2Realm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/oauth2/OAuth2Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/oauth2/TokenGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/redis/SysConfigRedis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/service/ShiroService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/service/SysCaptchaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/service/SysConfigService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/service/SysLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/service/SysMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/service/SysRoleMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/service/SysRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/service/SysUserRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/service/SysUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/service/SysUserTokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/service/impl/ShiroServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/service/impl/SysCaptchaServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/service/impl/SysConfigServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/service/impl/SysLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/service/impl/SysMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/service/impl/SysRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/sys/service/impl/SysUserTokenServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/mapper/app/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/mapper/job/ScheduleJobDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/mapper/job/ScheduleJobLogDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/mapper/oss/SysOssDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/mapper/sys/SysConfigDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/mapper/sys/SysLogDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/mapper/sys/SysMenuDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/mapper/sys/SysRoleDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/mapper/sys/SysRoleMenuDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/mapper/sys/SysUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/mapper/sys/SysUserRoleDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/mapper/sys/SysUserTokenDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/css/print.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/css/screen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/css/typography.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/fonts/DroidSans-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/fonts/DroidSans.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/images/collapse.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/images/expand.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/images/explorer_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/images/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/images/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/images/logo_small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/images/pet_store_api.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/images/throbber.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/images/wordnik_api.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/index.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/lang/translator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/lib/backbone-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/lib/es5-shim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/lib/handlebars-4.0.5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/lib/highlight.9.1.0.pack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/lib/highlight.9.1.0.pack_extended.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/lib/jquery-1.8.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/lib/jquery.ba-bbq.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/lib/jquery.slideto.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/lib/jquery.wiggle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/lib/js-yaml.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/lib/jsoneditor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/lib/lodash.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/lib/marked.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/lib/object-assign-pollyfill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/lib/sanitize-html.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/lib/swagger-oauth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/o2c.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/oauth2-redirect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/swagger-ui-bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/swagger-ui-bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/swagger-ui-standalone-preset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/swagger-ui-standalone-preset.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/swagger-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/swagger-ui.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/swagger-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/swagger-ui.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/static/swagger/swagger-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/test/java/atguigu/JwtTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-admin/src/test/java/atguigu/RedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-core/src/main/java/com/atguigu/gulimall/commons/bean/PageVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-core/src/main/java/com/atguigu/gulimall/commons/bean/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-core/src/main/java/com/atguigu/gulimall/commons/bean/QueryCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-core/src/main/java/com/atguigu/gulimall/commons/bean/Resp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-core/src/main/java/com/atguigu/gulimall/commons/exception/RRException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-core/src/main/java/com/atguigu/gulimall/commons/utils/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-core/src/main/java/com/atguigu/gulimall/commons/utils/SQLFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="fcc4a0d2-98f6-4b4f-9a95-8ac0628db9b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-admin/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-admin/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/guli-generator/target/" />
     <ignored path="$PROJECT_DIR$/gulimall-admin/target/" />
     <ignored path="$PROJECT_DIR$/gulimall-core/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/gulimall-ums/target/" />
+    <ignored path="$PROJECT_DIR$/gulimall-pms/target/" />
+    <ignored path="$PROJECT_DIR$/gulimall-oms/target/" />
+    <ignored path="$PROJECT_DIR$/gulimall-sms/target/" />
+    <ignored path="$PROJECT_DIR$/gulimall-wms/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulimall-oms/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="247">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="26" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulimall-pms/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulimall-sms/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulimall-ums/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulimall-wms/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -352,6 +87,20 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gulimall-admin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gulimall-admin/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/gulimall-admin/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/gulimall-oms/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-pms/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-sms/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-ums/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-wms/pom.xml" />
+      </list>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -359,6 +108,17 @@
         <option name="userSettingsFile" value="D:\soft\Mevan\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="5" />
@@ -423,6 +183,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GulimallOmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-oms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.oms.GulimallOmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallPmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-pms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.pms.GulimallPmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallSmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-sms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.sms.GulimallSmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallUmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-ums" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.ums.GulimallUmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallWmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-wms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.wms.GulimallWmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RenrenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="guli-generator" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.RenrenApplication" />
@@ -441,16 +236,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564657133671</updated>
-      <workItem from="1564657137882" duration="1582000" />
+      <workItem from="1564657137882" duration="3356000" />
     </task>
+    <task id="LOCAL-00001" summary="项目首次提交">
+      <created>1564658854000</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564658854000</updated>
+    </task>
+    <task id="LOCAL-00002" summary="创建其他项目">
+      <created>1564660499765</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564660499765</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1582000" />
+    <option name="totallyTimeSpent" value="3356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="5" width="1341" height="730" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -458,12 +267,12 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980484" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" weight="0.32885906" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Messages" weight="0.32885906" />
       <window_info anchor="bottom" id="Tail" />
       <window_info anchor="bottom" id="Java Enterprise" />
@@ -476,10 +285,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Maven" weight="0.32943013" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Database" weight="0.32943013" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Bean Validation" />
@@ -493,7 +302,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目首次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目首次提交" />
+    <MESSAGE value="创建其他项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建其他项目" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LICENSE">
@@ -508,10 +318,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-admin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-admin/src/main/resources/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-366">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-admin/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-admin/src/main/resources/application-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-admin/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-157">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-oms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-pms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-sms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-wms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-ums/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>
