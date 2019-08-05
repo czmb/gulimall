@@ -17,9 +17,15 @@
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
+        <mysql.version>5.1.47</mysql.version>
+        <version>0.2.2.RELEASE</version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.atguigu</groupId>
             <artifactId>gulimall-core</artifactId>
