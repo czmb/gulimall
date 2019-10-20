@@ -48,6 +48,7 @@ public class DbConfig {
             return postgreSQLGeneratorDao;
         }else {
             System.out.println("123");
+            System.out.println("123");
             throw new RRException("不支持当前数据库：" + database);
 
         }
