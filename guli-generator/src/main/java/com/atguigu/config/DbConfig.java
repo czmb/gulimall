@@ -47,7 +47,9 @@ public class DbConfig {
         }else if("postgresql".equalsIgnoreCase(database)){
             return postgreSQLGeneratorDao;
         }else {
+            System.out.println("123");
             throw new RRException("不支持当前数据库：" + database);
+
         }
     }
 }
